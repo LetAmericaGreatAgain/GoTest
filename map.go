@@ -44,3 +44,15 @@ func SumByRecursion(n int)int{
 	}
 
 }
+
+/**
+key=unknown,value=unknown
+key=google,value=谷歌
+key=apple,value=苹果
+谷歌
+value is not exist
+unknown 已经被删除
+key=google,value=谷歌
+key=apple,value=苹果
+通过递归求1-n之和，和为：5050
+*/
