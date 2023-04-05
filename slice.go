@@ -56,3 +56,24 @@ func main(){
 func PrintSlice(arr []int){
 	fmt.Printf("len=%d,cap=%d,slice=%v\n",len(arr),cap(arr),arr)
 }
+/**
+len=0,capacity=0
+slice1是一个空切片，还未进行初始化
+len=7,capacity=9
+slice2[0]=0
+slice2[1]=1
+slice2[2]=2
+slice2[3]=3
+slice2[4]=4
+slice2[5]=5
+slice2[6]=6
+len=10,cap=10,slice=[0 1 2 3 4 5 6 7 8 9]
+numbers[1:4] ==  [1 2 3]
+numbers[:4] ==  [0 1 2 3]
+numbers[1:] ==  [1 2 3 4 5 6 7 8 9]
+len=0,cap=0,slice=[]
+len=1,cap=1,slice=[0]
+len=4,cap=4,slice=[0 1 2 3]
+len=4,cap=18,slice=[0 1 2 3]
+len=4,cap=18,slice=[0 0 0 0]
+*/
